@@ -30,6 +30,8 @@ const handleUserInput = function (input) {
     connection.write('Move: down');
   } else if (input === 'd') {
     connection.write('Move: right');
+  } else if (input === 'x') {
+    connection.write('Say: w00t');
   }
 };
 
